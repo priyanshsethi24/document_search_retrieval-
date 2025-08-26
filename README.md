@@ -13,24 +13,8 @@ OCR + Embeddings + MongoDB – Uses OCR for text/image extraction, embeddings fo
 
 The goal is to enable scalable information retrieval and automation pipelines with high retrieval accuracy and efficient query response times.
 
-## 2) Directory Structure
-.
-├── config/                  # Configuration files & model lists
-├── Data/                    # Input data samples
-├── embeddings/              # Utilities for embedding generation
-├── extracted_images/        # Extracted images from PDFs (tables, figures, etc.)
-├── mongo/                   # MongoDB integration utilities
-├── ocr/                     # OCR-based text extraction
-├── pdf_documents/           # Source PDFs for search & extraction
-├── results/                 # Benchmarking results for embedding models
-├── search/                  # Semantic search implementation
-├── main.py                  # Entry point for running the system
-├── report_lab.py            # PDF/Report generation utility
-├── requirements.txt         # Python dependencies
-├── output_documents.json    # Final reconciled/processed output
-├── Question_Queries.txt     # Example queries for semantic search
 
-## 3) Features
+## 2) Features
 
 a) Semantic Search
 
@@ -42,7 +26,7 @@ b) Database Integration
 MongoDB support for storing embeddings & documents
 
 
-## 4) Installation & Setup
+## 3) Installation & Setup
 
 1. Clone the repository:
 
